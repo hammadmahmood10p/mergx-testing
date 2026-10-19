@@ -1,0 +1,23 @@
+{
+  "name": "mergx-testing",
+  "version": "1.0.0",
+  "description": "This repo is used for testing.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hammadmahmood10p/mergx-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hammadmahmood10p/mergx-testing/issues"
+  },
+  "homepage": "https://github.com/hammadmahmood10p/mergx-testing#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5"
+  }
+}
