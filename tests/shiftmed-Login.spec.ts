@@ -12,5 +12,5 @@ test('test', async ({ page }) => {
   await page.getByRole('textbox', { name: 'Password' }).fill('10Pearls10+');
   await page.getByRole('button', { name: 'Log In' }).click();
   await page.getByRole('heading', { name: 'Users' }).click();
-  await expect(page.getByRole('heading', { name: 'Users' })).toBeVisible(); // Commen for Mergx
+  await expect(page.getByRole('heading', { name: 'Users' })).toBeVisible();
 });
